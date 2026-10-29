@@ -1,18 +1,6 @@
-# Clickstream World: a complete reference implementation
+# Clickstream Analytics: a complete reference implementation
 
-A fictional collaboration platform with PlanBoard (work tracking), TeamDocs (documentation), and TeamChat (messaging). This is an illustrative architecture, not Atlassian’s proprietary implementation.
 
-## Start here
-
-1. Extract the ZIP and open `Executive_Report.html` for results and architecture.
-2. Read this guide and `docs/DATA_DICTIONARY.md` for the business and data definitions.
-3. Open the files in `sources/` to see what applications send.
-4. Run `python pipeline.py --cutoff 2026-11-01T00:00:00Z` from this folder.
-5. Run `python pipeline.py --cutoff 2026-11-10T00:00:00Z` to receive the late events and identity link.
-6. Open the CSV reports under `reports/2026-11-01/` and `reports/2026-11-10/` to compare.
-7. Run `python verify.py` for isolated behavioral checks.
-
-Requires Python 3.10+; no pip packages, cloud accounts, or paid services. `world.sqlite` is provided with the completed replay. To reproduce the before/after replay, delete world.sqlite first, or use `--db demo.sqlite` for both commands. A database only accumulates arrivals; running an earlier cutoff against a later database does not rewind history. Use a fresh database for an earlier snapshot.
 
 ## 1. The business world
 
