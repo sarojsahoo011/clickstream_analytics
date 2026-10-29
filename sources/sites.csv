@@ -1,0 +1,5 @@
+site_id,organization_id,plan
+s1,o1,standard
+s2,o2,premium
+s3,o3,free
+s4,o4,standard

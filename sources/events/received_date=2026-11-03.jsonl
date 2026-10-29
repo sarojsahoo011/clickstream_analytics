@@ -1,0 +1,1 @@
+{"source_system": "sdk", "event_id": "late-boundary", "event_timestamp": "2026-10-31T23:55:00Z", "received_timestamp": "2026-11-03T23:55:00Z", "user_id": "u041", "anonymous_id": null, "product_id": "docs", "site_id": "s2", "event_name": "page_view", "schema_version": 1, "is_bot": 0, "platform": "web", "properties": {"object_type": "document"}}

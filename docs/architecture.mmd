@@ -1,0 +1,11 @@
+flowchart TD
+  A[SDK event files] --> B[Bronze raw receipts]
+  R[Account and identity sources] --> C[Silver validated events]
+  B --> C
+  C --> D[User product site day]
+  C --> E[Feature day and sessions]
+  D --> F[User product day]
+  F --> G[User product month]
+  G --> H[Executive reports]
+  E --> H
+  C --> Q[Affected date ledger]

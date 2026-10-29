@@ -1,0 +1,13 @@
+product_id,event_name,feature_id,is_eligible,definition_version
+plan,page_view,navigation,1,v1
+plan,content_created,creation,1,v1
+plan,content_shared,sharing,1,v1
+plan,heartbeat,system,0,v1
+docs,page_view,navigation,1,v1
+docs,content_created,creation,1,v1
+docs,content_shared,sharing,1,v1
+docs,heartbeat,system,0,v1
+chat,page_view,navigation,1,v1
+chat,content_created,creation,1,v1
+chat,content_shared,sharing,1,v1
+chat,heartbeat,system,0,v1

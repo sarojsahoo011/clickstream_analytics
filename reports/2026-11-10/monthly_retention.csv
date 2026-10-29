@@ -1,0 +1,4 @@
+activity_month,product_id,cohort_users,retained_users,retention_pct
+2026-09,chat,39,39,100.0
+2026-09,docs,39,39,100.0
+2026-09,plan,40,39,97.5

@@ -1,0 +1,1 @@
+{"source_system": "sdk", "event_id": "e000000", "event_timestamp": "2026-09-01T10:00:00Z", "received_timestamp": "2026-11-04T00:00:00Z", "user_id": "u002", "anonymous_id": null, "product_id": "plan", "site_id": "s3", "event_name": "page_view", "schema_version": 1, "is_bot": 0, "platform": "web", "properties": {"object_type": "item"}}
